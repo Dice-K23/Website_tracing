@@ -1,0 +1,70 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size:62.5%;
+}
+
+body {
+  font-size:1.44rem;
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+
+}
+
+li {
+  list-style: none;
+}
+
+img{
+  max-width:100%;
+}
+
+/*/////////////////////
+      header
+///////////////////////*/
+.header{
+  display:flex;
+  align-items:center;
+}
+
+.header-logo{
+  padding:10px 0;
+  width:150px;
+}
+.header-list{
+  float:right;
+
+}
+
+/*/////////////////////
+      main
+///////////////////////*/
+#mainvisual img{
+  width:100%;
+  max-width:1920px;
+  height:600px;
+  background-image:url(https://code-step.com/demo/html/profile/img/mainvisual.jpg);
+  background-size:cover;
+}
+
+.context{
+  padding:0 15px;
+  margin:0 auto;
+  text-align:center;
+}
+
+.content-text p{
+  font-size:1.6rem;
+}
+
+
+/*/////////////////////
+     footer 
+/////////////////////*/
+
+
+
